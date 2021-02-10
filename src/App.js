@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/style.css";
+import Nav from "./components/Nav";
 
 function App() {
+  /* Struktura
+  navbar - ikonka, (buy i sell), join; bonus idea: da mi puska notification kato nqkoi iska da mi pishe
+  nameri doma si v jelaniq kvartal i posle filtri
+  nai otdolu nekwi adresi about privacy tn i tn
+  */
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      {/* <Main />
+      <Footer /> */}
+    </>
   );
 }
 
